@@ -1,0 +1,183 @@
+/* General Styles */
+
+body {
+
+  margin: 0;
+
+  font-family: Arial, sans-serif;
+
+  background-color: skyblue;
+
+  color: #333;
+
+  text-align: center;
+
+}
+
+/* Header & Navbar */
+
+header {
+
+  background: #0a3d62;
+
+  color: white;
+
+  padding: 15px 0;
+
+}
+
+nav ul {
+
+  list-style: none;
+
+  padding: 0;
+
+}
+
+nav ul li {
+
+  display: inline;
+
+  margin: 0 15px;
+
+}
+
+nav ul li a {
+
+  color: white;
+
+  text-decoration: none;
+
+  font-weight: bold;
+
+}
+
+/* Sections */
+
+section {
+
+  padding: 40px 20px;
+
+}
+
+h1, h2 {
+
+  margin-bottom: 15px;
+
+}
+
+/* Skills & Projects Container */
+
+.container {
+
+  display: flex;
+
+  justify-content: center;
+
+  gap: 20px;
+
+  flex-wrap: wrap;
+
+  margin-top: 20px;
+
+}
+
+.box {
+
+  background: white;
+
+  padding: 20px;
+
+  border-radius: 12px;
+
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+
+  width: 250px;
+
+  text-align: center;
+
+  transition: transform 0.2s ease;
+
+}
+
+.box:hover {
+
+  transform: scale(1.05);
+
+}
+
+/* Contact Form */
+
+form {
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  gap: 12px;
+
+  max-width: 400px;
+
+  margin: auto;
+
+}
+
+input, textarea {
+
+  width: 100%;
+
+  padding: 10px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 8px;
+
+}
+
+textarea {
+
+  height: 100px;
+
+  resize: none;
+
+}
+
+/* Button */
+
+button {
+
+  background: #0a3d62;
+
+  color: white;
+
+  padding: 10px 15px;
+
+  border: none;
+
+  border-radius: 5px;
+
+  cursor: pointer;
+
+}
+
+button:hover {
+
+  background: #3c6382;
+
+}
+
+/* Footer */
+
+footer {
+
+  background: #0a3d62;
+
+  color: white;
+
+  padding: 10px 0;
+
+  margin-top: 20px;
+
+}
